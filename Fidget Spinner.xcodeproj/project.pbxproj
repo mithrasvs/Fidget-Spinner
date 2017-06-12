@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC172C11EEF580D00415071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC172C01EEF580D00415071 /* AppDelegate.swift */; };
+		DCC172C31EEF580D00415071 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DCC172C21EEF580D00415071 /* GameScene.sks */; };
+		DCC172C51EEF580D00415071 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DCC172C41EEF580D00415071 /* Actions.sks */; };
+		DCC172C71EEF580D00415071 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC172C61EEF580D00415071 /* GameScene.swift */; };
+		DCC172C91EEF580D00415071 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC172C81EEF580D00415071 /* GameViewController.swift */; };
+		DCC172CC1EEF580D00415071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC172CA1EEF580D00415071 /* Main.storyboard */; };
+		DCC172CE1EEF580D00415071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC172CD1EEF580D00415071 /* Assets.xcassets */; };
+		DCC172D11EEF580D00415071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC172CF1EEF580D00415071 /* LaunchScreen.storyboard */; };
+		DCC172DC1EEF580D00415071 /* Fidget_SpinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC172DB1EEF580D00415071 /* Fidget_SpinnerTests.swift */; };
+		DCC172E71EEF580D00415071 /* Fidget_SpinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC172E61EEF580D00415071 /* Fidget_SpinnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC172D81EEF580D00415071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC172B51EEF580D00415071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC172BC1EEF580D00415071;
+			remoteInfo = "Fidget Spinner";
+		};
+		DCC172E31EEF580D00415071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC172B51EEF580D00415071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC172BC1EEF580D00415071;
+			remoteInfo = "Fidget Spinner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC172BD1EEF580D00415071 /* Fidget Spinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fidget Spinner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC172C01EEF580D00415071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCC172C21EEF580D00415071 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DCC172C41EEF580D00415071 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DCC172C61EEF580D00415071 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DCC172C81EEF580D00415071 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DCC172CB1EEF580D00415071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC172CD1EEF580D00415071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC172D01EEF580D00415071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC172D21EEF580D00415071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC172D71EEF580D00415071 /* Fidget SpinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fidget SpinnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC172DB1EEF580D00415071 /* Fidget_SpinnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidget_SpinnerTests.swift; sourceTree = "<group>"; };
+		DCC172DD1EEF580D00415071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC172E21EEF580D00415071 /* Fidget SpinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fidget SpinnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC172E61EEF580D00415071 /* Fidget_SpinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidget_SpinnerUITests.swift; sourceTree = "<group>"; };
+		DCC172E81EEF580D00415071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC172BA1EEF580D00415071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC172D41EEF580D00415071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC172DF1EEF580D00415071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC172B41EEF580D00415071 = {
+			isa = PBXGroup;
+			children = (
+				DCC172BF1EEF580D00415071 /* Fidget Spinner */,
+				DCC172DA1EEF580D00415071 /* Fidget SpinnerTests */,
+				DCC172E51EEF580D00415071 /* Fidget SpinnerUITests */,
+				DCC172BE1EEF580D00415071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC172BE1EEF580D00415071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC172BD1EEF580D00415071 /* Fidget Spinner.app */,
+				DCC172D71EEF580D00415071 /* Fidget SpinnerTests.xctest */,
+				DCC172E21EEF580D00415071 /* Fidget SpinnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC172BF1EEF580D00415071 /* Fidget Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				DCC172C01EEF580D00415071 /* AppDelegate.swift */,
+				DCC172C21EEF580D00415071 /* GameScene.sks */,
+				DCC172C41EEF580D00415071 /* Actions.sks */,
+				DCC172C61EEF580D00415071 /* GameScene.swift */,
+				DCC172C81EEF580D00415071 /* GameViewController.swift */,
+				DCC172CA1EEF580D00415071 /* Main.storyboard */,
+				DCC172CD1EEF580D00415071 /* Assets.xcassets */,
+				DCC172CF1EEF580D00415071 /* LaunchScreen.storyboard */,
+				DCC172D21EEF580D00415071 /* Info.plist */,
+			);
+			path = "Fidget Spinner";
+			sourceTree = "<group>";
+		};
+		DCC172DA1EEF580D00415071 /* Fidget SpinnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC172DB1EEF580D00415071 /* Fidget_SpinnerTests.swift */,
+				DCC172DD1EEF580D00415071 /* Info.plist */,
+			);
+			path = "Fidget SpinnerTests";
+			sourceTree = "<group>";
+		};
+		DCC172E51EEF580D00415071 /* Fidget SpinnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC172E61EEF580D00415071 /* Fidget_SpinnerUITests.swift */,
+				DCC172E81EEF580D00415071 /* Info.plist */,
+			);
+			path = "Fidget SpinnerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC172BC1EEF580D00415071 /* Fidget Spinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC172EB1EEF580D00415071 /* Build configuration list for PBXNativeTarget "Fidget Spinner" */;
+			buildPhases = (
+				DCC172B91EEF580D00415071 /* Sources */,
+				DCC172BA1EEF580D00415071 /* Frameworks */,
+				DCC172BB1EEF580D00415071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fidget Spinner";
+			productName = "Fidget Spinner";
+			productReference = DCC172BD1EEF580D00415071 /* Fidget Spinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC172D61EEF580D00415071 /* Fidget SpinnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC172EE1EEF580D00415071 /* Build configuration list for PBXNativeTarget "Fidget SpinnerTests" */;
+			buildPhases = (
+				DCC172D31EEF580D00415071 /* Sources */,
+				DCC172D41EEF580D00415071 /* Frameworks */,
+				DCC172D51EEF580D00415071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC172D91EEF580D00415071 /* PBXTargetDependency */,
+			);
+			name = "Fidget SpinnerTests";
+			productName = "Fidget SpinnerTests";
+			productReference = DCC172D71EEF580D00415071 /* Fidget SpinnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC172E11EEF580D00415071 /* Fidget SpinnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC172F11EEF580D00415071 /* Build configuration list for PBXNativeTarget "Fidget SpinnerUITests" */;
+			buildPhases = (
+				DCC172DE1EEF580D00415071 /* Sources */,
+				DCC172DF1EEF580D00415071 /* Frameworks */,
+				DCC172E01EEF580D00415071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC172E41EEF580D00415071 /* PBXTargetDependency */,
+			);
+			name = "Fidget SpinnerUITests";
+			productName = "Fidget SpinnerUITests";
+			productReference = DCC172E21EEF580D00415071 /* Fidget SpinnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC172B51EEF580D00415071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mithra Singam";
+				TargetAttributes = {
+					DCC172BC1EEF580D00415071 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DCC172D61EEF580D00415071 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = DCC172BC1EEF580D00415071;
+					};
+					DCC172E11EEF580D00415071 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = DCC172BC1EEF580D00415071;
+					};
+				};
+			};
+			buildConfigurationList = DCC172B81EEF580D00415071 /* Build configuration list for PBXProject "Fidget Spinner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC172B41EEF580D00415071;
+			productRefGroup = DCC172BE1EEF580D00415071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC172BC1EEF580D00415071 /* Fidget Spinner */,
+				DCC172D61EEF580D00415071 /* Fidget SpinnerTests */,
+				DCC172E11EEF580D00415071 /* Fidget SpinnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC172BB1EEF580D00415071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC172CC1EEF580D00415071 /* Main.storyboard in Resources */,
+				DCC172C31EEF580D00415071 /* GameScene.sks in Resources */,
+				DCC172CE1EEF580D00415071 /* Assets.xcassets in Resources */,
+				DCC172D11EEF580D00415071 /* LaunchScreen.storyboard in Resources */,
+				DCC172C51EEF580D00415071 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC172D51EEF580D00415071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC172E01EEF580D00415071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC172B91EEF580D00415071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC172C71EEF580D00415071 /* GameScene.swift in Sources */,
+				DCC172C91EEF580D00415071 /* GameViewController.swift in Sources */,
+				DCC172C11EEF580D00415071 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC172D31EEF580D00415071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC172DC1EEF580D00415071 /* Fidget_SpinnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC172DE1EEF580D00415071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC172E71EEF580D00415071 /* Fidget_SpinnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC172D91EEF580D00415071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC172BC1EEF580D00415071 /* Fidget Spinner */;
+			targetProxy = DCC172D81EEF580D00415071 /* PBXContainerItemProxy */;
+		};
+		DCC172E41EEF580D00415071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC172BC1EEF580D00415071 /* Fidget Spinner */;
+			targetProxy = DCC172E31EEF580D00415071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC172CA1EEF580D00415071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC172CB1EEF580D00415071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC172CF1EEF580D00415071 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC172D01EEF580D00415071 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC172E91EEF580D00415071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC172EA1EEF580D00415071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC172EC1EEF580D00415071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4V5UG44PD6;
+				INFOPLIST_FILE = "Fidget Spinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mithra.Fidget-Spinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC172ED1EEF580D00415071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4V5UG44PD6;
+				INFOPLIST_FILE = "Fidget Spinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mithra.Fidget-Spinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC172EF1EEF580D00415071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4V5UG44PD6;
+				INFOPLIST_FILE = "Fidget SpinnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mithra.Fidget-SpinnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fidget Spinner.app/Fidget Spinner";
+			};
+			name = Debug;
+		};
+		DCC172F01EEF580D00415071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4V5UG44PD6;
+				INFOPLIST_FILE = "Fidget SpinnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mithra.Fidget-SpinnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fidget Spinner.app/Fidget Spinner";
+			};
+			name = Release;
+		};
+		DCC172F21EEF580D00415071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4V5UG44PD6;
+				INFOPLIST_FILE = "Fidget SpinnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mithra.Fidget-SpinnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fidget Spinner";
+			};
+			name = Debug;
+		};
+		DCC172F31EEF580D00415071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4V5UG44PD6;
+				INFOPLIST_FILE = "Fidget SpinnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mithra.Fidget-SpinnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fidget Spinner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC172B81EEF580D00415071 /* Build configuration list for PBXProject "Fidget Spinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC172E91EEF580D00415071 /* Debug */,
+				DCC172EA1EEF580D00415071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC172EB1EEF580D00415071 /* Build configuration list for PBXNativeTarget "Fidget Spinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC172EC1EEF580D00415071 /* Debug */,
+				DCC172ED1EEF580D00415071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCC172EE1EEF580D00415071 /* Build configuration list for PBXNativeTarget "Fidget SpinnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC172EF1EEF580D00415071 /* Debug */,
+				DCC172F01EEF580D00415071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCC172F11EEF580D00415071 /* Build configuration list for PBXNativeTarget "Fidget SpinnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC172F21EEF580D00415071 /* Debug */,
+				DCC172F31EEF580D00415071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC172B51EEF580D00415071 /* Project object */;
+}
